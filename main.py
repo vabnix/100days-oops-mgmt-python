@@ -26,3 +26,12 @@ print(table)
 |   Perth   | 5386 |  1554769   |      869.4      |
 +-----------+------+------------+-----------------+
 """
+
+challenge_table = PrettyTable()
+
+challenge_table.field_names= ["Pokemon Name", "Type"]
+challenge_table.add_row(["Pikachu","Electric"])
+challenge_table.add_row(["Squirtle","Water"])
+challenge_table.add_row(["Charmander","Fire"])
+
+print(challenge_table)
