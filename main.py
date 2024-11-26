@@ -35,3 +35,28 @@ challenge_table.add_row(["Squirtle","Water"])
 challenge_table.add_row(["Charmander","Fire"])
 
 print(challenge_table)
+"""
++--------------+----------+
+| Pokemon Name |   Type   |
++--------------+----------+
+|   Pikachu    | Electric |
+|   Squirtle   |  Water   |
+|  Charmander  |   Fire   |
++--------------+----------+
+"""
+
+challenge_table_2 = PrettyTable()
+challenge_table_2.add_column("Pokemon Name",["Pikachu","Squirtle","Charmander"])
+challenge_table_2.add_column("Type",["Electric","Water","Fire"])
+
+print(challenge_table_2)
+
+"""
++--------------+----------+
+| Pokemon Name |   Type   |
++--------------+----------+
+|   Pikachu    | Electric |
+|   Squirtle   |  Water   |
+|  Charmander  |   Fire   |
++--------------+----------+
+"""
